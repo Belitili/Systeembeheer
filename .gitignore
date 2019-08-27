@@ -25,6 +25,7 @@
 !systemd/system/
 !.gitignore
 !systemd/system/ladvd.service
+!sshguard/
 
 #Whitelist files not in subdir
 !adduser.conf
