@@ -1,4 +1,6 @@
+# Blacklist files/folders in same directory as the .gitignore file
 /*
+# White list
 !aliases
 !apt/
 !colortail/
