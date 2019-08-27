@@ -104,3 +104,4 @@
 !timezone
 !ucf.conf
 !wgetrc
+!incron.allow
