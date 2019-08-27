@@ -25,3 +25,6 @@
 !systemd/system/
 !.gitignore
 !systemd/system/ladvd.service
+
+#Whitelist files not in subdir
+!*
