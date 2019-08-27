@@ -21,7 +21,5 @@
 !extra_exercises
 !system/
 !systemd/system/
-
 !.gitignore
-
 !systemd/system/ladvd.service
