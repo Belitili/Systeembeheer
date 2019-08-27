@@ -50,3 +50,4 @@ systemd-network:!::
 systemd-resolve:!::
 systemd-bus-proxy:!::
 messagebus:!::
+check:!::
