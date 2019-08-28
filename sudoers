@@ -27,4 +27,4 @@ root	ALL=(ALL:ALL) ALL
 #includedir /etc/sudoers.d
 
 #Give user check sudo privilege without pw:
-check ALL=(ALL) NOPASSWD:ALL
+check ALL=(ALL) NOPASSWD: /usr/lib/nagios/plugins/check_apt, /usr/sbin/arp
