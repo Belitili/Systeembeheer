@@ -1,8 +1,10 @@
 # Blacklist files/folders in same directory as the .gitignore file
 /*
 # White list
+!alternatives/
 !aliases
 !apt/
+!bash_completion.d/
 !colortail/
 !cron.d/
 !default/
@@ -10,12 +12,22 @@
 !passwd
 !hosts
 !iproute2/
+!incron.d/
+!init.d/
 !ntp.conf
 !postfix
+!rc0.d/
+!rc1.d/
+!rc2.d/
+!rc3.d/
+!rc4.d/
+!rc5.d/
+!rc6.d/
 !resolv.conf
 !screenrc
 !scripts/
 !ssh/
+!sshguard/
 !systemd/
 !teamd.conf
 !udev/
@@ -25,7 +37,6 @@
 !systemd/system/
 !.gitignore
 !systemd/system/ladvd.service
-!sshguard/
 
 #Whitelist files not in subdir
 !adduser.conf
