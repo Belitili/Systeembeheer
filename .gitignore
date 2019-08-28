@@ -1,7 +1,10 @@
 # Blacklist files/folders in same directory as the .gitignore file
 /*
 # White list
+!NetworkManager/
 !alternatives/
+!apparmor.d/
+!apparmor
 !aliases
 !apt/
 !bash_completion.d/
@@ -120,6 +123,7 @@
 !netconfig
 !networks
 !nsswitch.conf
+!ntp.conf
 !os-release
 !pam.conf
 !passwd
