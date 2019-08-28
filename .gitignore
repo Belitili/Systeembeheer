@@ -8,6 +8,7 @@
 !aliases
 !apt/
 !bash_completion.d/
+!bind/
 !colortail/
 !cron.d/
 !cron.daily/
