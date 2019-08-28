@@ -92,6 +92,7 @@
 !hosts.allow
 !hosts.deny
 !inputrc
+!incron.conf
 !issue
 !issue.net
 !ld.so.cache
@@ -138,6 +139,7 @@
 !subgid-
 !subuid
 !subuid-
+!sudoers
 !sysctl.conf
 !timezone
 !ucf.conf
