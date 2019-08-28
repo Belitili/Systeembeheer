@@ -9,7 +9,7 @@
 //allow master to notify of changes made to slave server
 zone "maria.verdonck.sb.uclllabs.be" {
 	type master;
-	file "/etc/bind/db-maria.verdonck.sb";
+	file "/etc/bind/db.maria.verdonck.sb.uclllabs.be";
 	allow-update{none;};
 	notify yes;
 	also-notify{193.191.176.254;193.191.177.4;};
