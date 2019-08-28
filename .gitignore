@@ -29,6 +29,7 @@
 !logrotate.d/
 !modules-load.d/
 !nagios-plugins/
+!network/
 !ntp.conf
 !pam.d/
 !perl/
@@ -79,6 +80,7 @@
 !debian_version
 !deluser.conf
 !environment
+!ethers
 !fstab
 !gai.conf
 !group
@@ -142,6 +144,7 @@
 !sudoers
 !sysctl.conf
 !timezone
+!test-incron
 !ucf.conf
 !wgetrc
 !incron.allow
