@@ -6,3 +6,17 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+//allow master to notify of changes made to slave server
+zone "maria.verdonck.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/db-maria.verdonck.sb";
+	allow-update{none;};
+	notify yes;
+	also-notify{193.191.176.254;193.191.177.4;};
+	allow-transfer {
+		193.191.176.254;
+		193.191.177.4
+		193.191.177.254;
+	};
+};
+
