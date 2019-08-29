@@ -1,4 +1,4 @@
-$TTL    604800
+$TTL    1
 @	IN      SOA     ns.maria-verdonck.sb.uclllabs.be. admin.maria-verdonck.sb.uclllabs.be. (
                           3         ; Serial
                           3h       ; Refresh after 3 hours
