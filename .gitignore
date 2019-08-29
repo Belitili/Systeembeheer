@@ -29,9 +29,11 @@
 !insserv.conf.d/
 !ld.so.conf.d.
 !ldap/
+!logcheck/
 !lograte.d/
 !logrotate.d/
 !modules-load.d/
+!mysql/
 !nagios-plugins/
 !network/
 !ntp.conf
