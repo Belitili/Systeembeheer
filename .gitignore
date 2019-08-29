@@ -3,6 +3,7 @@
 # White list
 !NetworkManager/
 !alternatives/
+!apache2/
 !apparmor.d/
 !apparmor
 !aliases
