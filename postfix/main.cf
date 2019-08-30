@@ -13,10 +13,19 @@ alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 mydestination = $myhostname, localhost.$mydomain, localhost
 relayhost = 
-mynetworks = 127.0.0.0/8
-inet_interfaces = loopback-only
+inet_interfaces = all
 recipient_delimiter = +
 
 myhostname = mx.maria-verdonck.sb.uclllabs.be
-config_directory = /etc/postfic
-dovecot_destination 
+config_directory = /etc/postfix
+myorigin = $myhostname
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128 192.168.0.0/24
+mailbox_size_limit = 0
+
+virtual_mailbox_domains = /etc/postfix/vhosts.txt
+virtual_mailbox_base = /var/vmail
+virtual_mailbox_maps = hash:/etc/postfix/vmaps.txt
+virtual_minimum_uid = 1000
+virtual_uid_maps = static:5000
+virtual_gid_maps = static:5000
+virtual_transport = lmtp:unix:private/dovecot-lmtp0
