@@ -4,6 +4,8 @@ ff02::1		ip6-allnodes
 ff02::2		ip6-allrouters
 111.111.111.111 www1.maria-verdonck.sb.uclllabs.be
 111.111.111.111 www2.maria-verdonck.sb.uclllabs.be
+193.191.177.222 maria-verdonck.sb.uclllabs.be
+
 # --- BEGIN PVE ---
 193.191.177.222 maria-verdonck.uclllabs.be maria-verdonck
 # --- END PVE ---
