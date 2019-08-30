@@ -30,6 +30,7 @@
 !insserv.conf.d/
 !ld.so.conf.d.
 !ldap/
+!letsencrypt/
 !logcheck/
 !lograte.d/
 !logrotate.d/
@@ -38,8 +39,11 @@
 !nagios-plugins/
 !network/
 !ntp.conf
+!PackageKit/
 !pam.d/
+!pm/
 !perl/
+!polkit-1/
 !postfix/
 !python2.7/
 !python3.5/
@@ -72,6 +76,7 @@
 !systemd/system/
 !.gitignore
 !systemd/system/ladvd.service
+!xdg/
 
 #Whitelist files not in subdir
 !adduser.conf
