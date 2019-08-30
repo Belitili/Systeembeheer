@@ -17,3 +17,4 @@ mynetworks = 127.0.0.0/8
 inet_interfaces = loopback-only
 recipient_delimiter = +
 
+myhostname = mx.maria-verdonck.sb.uclllabs.be
