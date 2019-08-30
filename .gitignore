@@ -19,6 +19,7 @@
 !dbus-1/
 !default/
 !dhcp/
+!dovecot/
 !dpkg/
 !group
 !passwd
