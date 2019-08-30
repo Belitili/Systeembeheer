@@ -18,3 +18,5 @@ inet_interfaces = loopback-only
 recipient_delimiter = +
 
 myhostname = mx.maria-verdonck.sb.uclllabs.be
+config_directory = /etc/postfic
+dovecot_destination 
